@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS practise</title>
+    <style>
+      #design  
+      {
+        color:crimson;
+       
+      }
+      p{
+        font-weight: bolder;
+      }
+     .dept{
+        color:aquamarine;
+       
+     } 
+     .title
+     {
+        color: red;
+        font-size: 30px;
+      
+     }
+     #work
+     {
+        background-color: black;
+     }
+
+     h5{
+        border: 4px dashed red;
+        text-align: center;
+        font-size: 30px;
+     }
+
+     .box
+     {
+        border: 2px solid black;
+        color: white;
+        background-color: crimson;
+        text-align: center;
+        width:400px;
+        height: 200px;
+        padding:70px 35px 0 30px;
+     }
+    </style>
+</head>
+
+<body>
+    <header>
+        <!-- class not unique -->
+        <!-- id is unique -->
+
+        <!-- how to write CSS using tag name....
+            tag name {
+                CSS property : value ;
+            }
+         -->
+        <!-- how to write CSS using id name....
+            #id_name {
+                CSS property : value ;
+            }
+         -->
+                 <!-- how to write CSS using class name....
+            .class_name {
+                CSS property : value ;
+            }
+
+            padding: top right bottom left;
+         -->
+
+        <h1>Fashion <br>
+            <span id="design">Designing</span></h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, odio.</p>
+    </header>
+
+    <main>
+            <h1 class="dept">CSE Department</h1>
+            <h2 class="dept">EEE Department</h2>
+            <p>Lorem ipsum <span class="dept">dolor</span> sit <span id="design">amet</span>.</p>
+
+
+            <section class="title">
+                fasion designing
+            </section>
+
+            <section class="title" id="work">My work</section>
+
+            <section class="title">about me</section>
+
+            <h5>My Newspaper</h5>
+
+
+            <div class="box">
+                <h3>Lorem, ipsum dolor.</h3>
+            </div>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+
+</html>
